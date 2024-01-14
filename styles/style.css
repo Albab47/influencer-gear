@@ -1,0 +1,70 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-primary: #fff;
+    --primary-text: #3A3A3A;
+    --primary-color: #E02C6D;
+    --text-gray: #787885;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text);
+    background-color: var(--bg-primary);
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text)
+}
+
+/* Utilities */
+.container {
+    width: 85%;
+    max-width: 75rem;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+.header {
+    padding: 3rem 0;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.header__nav li {
+    font-weight: 600;
+}
