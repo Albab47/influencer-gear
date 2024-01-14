@@ -50,6 +50,25 @@ a {
     align-items: center;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.btn {
+    background: #E02C6D;
+    font-weight: 700;
+    border-radius: 2.5625rem;
+    padding: 0.625rem 1.5rem;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    max-width: 12.25rem;
+}
+
+
 /* header */
 .header {
     padding: 3rem 0;
@@ -67,4 +86,25 @@ a {
 
 .header__nav li {
     font-weight: 600;
+}
+
+/* Showcase */
+.showcase__content h2 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    /* 134.615% */
+}
+
+.showcase__content p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.showcase__img {
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
